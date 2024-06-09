@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style19.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Télécharger des articles</h1>
+        <form action="download.php" method="post">
+            <label for="article">sélectionnez un article à télécharger :</label>
+            <select name="cv hadir" id="1">
+                <php
+                // Connexion à la base de données 
+                $connexion = new PDO('mysql:host=localhost;dbname=projet', 'root', '');
+
+                // Requete pour récupérer les articles de la base de données
+                $query = $connexion->prepare("SELECT 1, cv hadir FROM articles");
+                $query->execute();
+                $articles = $query->fetchAll(PDO::FETCH_ASSOC);
+                // Affichage des options dans le menu déroulant
+                foreach ($articles as $article) {
+                    echo "<option value='" . $article['id'] . "'>" . $article['titre] ."</option>";
+                                }
+                                ?>
+            </select>
+            <button type="submit">Télécharger</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>

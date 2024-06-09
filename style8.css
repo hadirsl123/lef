@@ -1,0 +1,174 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+   
+}
+a{
+    text-decoration: 0;
+    font-size: 13px;
+}
+/*Scrollbar CSS**/
+::-webikit-scrollbar {
+    width: 8px;
+}
+::-webikit-scrollbar-thumb {
+    background-color: #4f4f4f;
+    border-radius: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 2%;
+    background-image:url(./image/background.jpg);
+    margin: 0;
+    border-radius: 10px 10px 0  0;
+    margin-left: 9px;
+    margin-right: 7px;
+    margin-top: 20px;
+    
+}
+header .logo{
+    display: flex;
+    align-items: center;
+
+}
+header .logo img{
+    width: 150px;
+    height: 150px;
+}
+header .logo h1 {
+    font-size: 20px;
+    color:white;
+    text-align: center;
+
+}
+header .logo2 img{
+    width: 70px;
+    height: 70px;
+}
+header .logo2 h1 {
+    font-size: 15px;
+    color:white;
+    text-align: center;
+}
+nav{
+    margin-top:2px;
+    width: 99%;
+    margin-left: 8px;
+    margin-right: 9px;              
+}
+.menu-bar{
+
+    background:rgb(0,100, 0);
+    
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    margin: 5px;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff ;
+}
+ .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+
+
+
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:#2bab0d;
+    margin-top: 10px;
+    margin-left: -10px;
+     
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:black;
+}
+
+ 
+
+/* Styles pour l'icône de réseaux sociaux */
+/* Styles pour l'icône de menu hamburger */
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    right: 0px;
+    position: relative;
+    margin-left:200px;
+}
+
+.bar { 
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+}
+article{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+article .debut p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+
+
+}
+article .debut p:hover{
+    color: black;
+}
+footer{
+    background-color:green;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ h1{
+    text-align: center;
+    color:white;
+    
+    
+}

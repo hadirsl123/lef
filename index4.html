@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Unités de Biologie</h1>
+    <div class="menu-img">
+        <img src="logooo.jpg" id="menu">
+    </div>
+    <div class="show">
+        <nav class="left-nav">
+            <a href="">Présentation</a>
+            <a href="">Responsable</a>
+            <a href="index5.html">Matriél</a>
+            <a href="">objectifs</a>
+        </nav>
+
+    </div>
+
+    <script>
+        var show = document.querySelector(".show");
+        var menu =document.getElementById("menu");
+        menu.onclick = function(){
+            if(show.style.display == "none"){
+                show.style.display ="block";
+                menu.src="cancel.jpg"
+            }else{
+                show.style.display ="none";
+                menu.src="logooo.jpg"
+            }
+        }
+    </script>
+</body>
+
+</html>

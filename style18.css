@@ -1,0 +1,37 @@
+.list_recherche{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rech{
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(119, 175, 138);
+
+    
+}
+.rech:hover{
+    transform: scale(1.1);
+}
+.rech h4{
+    margin: 2px;
+}
+.rech img{
+    width: 100px;
+    margin-bottom:5px ;
+}
+.rech a{
+    color:white;
+}
+.services{
+    width: 600px;
+
+
+}

@@ -1,0 +1,218 @@
+header {
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    position: relative;
+  }
+  
+  .header-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .header-images img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 10s ease-in-out;
+  }
+  
+  .header-images img:first-child {
+    opacity: 1;
+  }
+  
+  .header-images img:nth-child(2) {
+    animation: imageFade 10s infinite;
+  }
+  
+  @keyframes imageFade {
+    0%, 100% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 1;
+    }
+  }
+
+
+nav{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 250px;
+        width: 200px;
+        display: flex;
+    align-items: center;
+    z-index: 1;
+
+
+}
+
+
+section{
+    max-width: 1100px;
+    margin: 20px auto;
+    flex-direction: column;
+    padding: 60px 5%;
+    margin-bottom: 50px;
+    
+}
+.corpA {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px; 
+    
+}
+ h2{
+    color: white;
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    width:300px;
+    height:45px;
+    background-color:green;
+    border-radius:10px 10px 10px 10px;
+    text-align:center;
+    font-weight:bold;
+    margin-left: 0PX;
+    margin-right: 300PX;
+}
+.corpA h2:hover{
+    color:white;
+    font-size: 15px;
+}
+.profile-container-id{
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+
+
+}
+.profile-container-id .h6{
+
+
+}
+.profile-container-id img{
+    width: 20px;
+    height: 20px;
+}
+.corpD {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px; 
+    
+}
+ h5{
+    color: green;
+    
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    width:150px;
+    height:45px;
+    background-color:green;
+    border-radius:10px 10px 10px 10px;
+    text-align:center;
+    font-weight:bold;
+}
+.corpD h5:hover{
+    color:white;
+    font-size: 15px;
+}
+.profile-container-id{
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+    margin: 25px;
+    
+
+}
+.profile-container-id .h6{
+
+
+}
+.profile-container-id img{
+    width: 20px;
+    height: 20px;
+}
+.corpB {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+ h5{
+    color: black;
+    margin-left: 50px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    width:150px;
+    height:35px;
+    background-color:green;
+    border-radius:10px 10px 10px 10px;
+    text-align:center;
+    font-weight:bold;
+}
+.corpB h5:hover{
+    color:white;
+    font-size: 15px;
+}
+
+
+.corpC {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+    
+}
+ h5{
+    color: black;
+    margin-left: 5px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    width:150px;
+    height:45px;
+    background-color:green;
+    border-radius:10px 10px 10px 10px;
+    text-align:center;
+    font-weight:bold;
+}
+.corpC h5:hover{
+    color:white;
+    font-size: 15px;
+}
